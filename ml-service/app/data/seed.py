@@ -1,6 +1,6 @@
 import os
 import json
-import pandas as pd
+import csv
 from pymongo import MongoClient
 
 def seed_database():
@@ -47,8 +47,15 @@ def seed_database():
     # 5. Rate History
     rates_file = os.path.join(raw_dir, "baltic_indices.csv")
     if os.path.exists(rates_file):
-        df = pd.read_csv(rates_file)
-        records = df.to_dict(orient="records")
+        records = []
+        with open(rates_file, 'r', newline='') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                # Convert numeric fields
+                row['index_value'] = float(row['index_value'])
+                row['tce_usd_per_day'] = float(row['tce_usd_per_day'])
+                records.append(row)
+        
         db.rate_history.delete_many({})
         # Insert in chunks to avoid document size limits
         chunk_size = 5000

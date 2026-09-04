@@ -1,12 +1,12 @@
-import pandas as pd
-import numpy as np
+import random
 from datetime import datetime, timedelta
 import os
+import csv
 
 def generate_mock_baltic_indices(output_path: str):
-    np.random.seed(42)
+    random.seed(42)
     start_date = datetime.now() - timedelta(days=365 * 3)
-    dates = pd.date_range(start=start_date, end=datetime.now(), freq='D')
+    dates = [start_date + timedelta(days=x) for x in range((365 * 3) + 1)]
     
     classes = ['Capesize', 'Panamax', 'Supramax', 'Handysize']
     base_rates = {'Capesize': 20000, 'Panamax': 15000, 'Supramax': 12000, 'Handysize': 9000}
@@ -17,7 +17,7 @@ def generate_mock_baltic_indices(output_path: str):
         current_rate = base_rates[cls]
         for date in dates:
             # Random walk
-            current_rate += np.random.normal(0, volatility[cls])
+            current_rate += random.gauss(0, volatility[cls])
             # Keep it positive
             current_rate = max(current_rate, 2000)
             
@@ -29,10 +29,12 @@ def generate_mock_baltic_indices(output_path: str):
                 'source': 'synthetic_mock_data'
             })
             
-    df = pd.DataFrame(records)
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    df.to_csv(output_path, index=False)
-    print(f"Generated {len(df)} synthetic records at {output_path}")
+    with open(output_path, 'w', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=['date', 'vessel_class', 'index_value', 'tce_usd_per_day', 'source'])
+        writer.writeheader()
+        writer.writerows(records)
+    print(f"Generated {len(records)} synthetic records at {output_path}")
 
 if __name__ == "__main__":
     generate_mock_baltic_indices("../../data/raw/baltic_indices.csv")
