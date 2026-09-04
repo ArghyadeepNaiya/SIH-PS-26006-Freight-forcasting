@@ -1,0 +1,23 @@
+[
+  {
+    "key": "demurrage_rate_per_day",
+    "value": 15000,
+    "unit": "USD",
+    "source": "Estimated industry average 2026",
+    "editable": true
+  },
+  {
+    "key": "inland_cost_per_tonne_multiplier",
+    "value": 0.05,
+    "unit": "USD/km",
+    "source": "Assumed rail freight rate",
+    "editable": true
+  },
+  {
+    "key": "minimum_risk_margin_pct",
+    "value": 5.0,
+    "unit": "%",
+    "source": "Configured wait vs fix threshold",
+    "editable": true
+  }
+]

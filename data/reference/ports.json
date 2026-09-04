@@ -1,0 +1,142 @@
+[
+  {
+    "code": "IXP",
+    "name": "Paradip",
+    "max_draft_m": 14.5,
+    "max_loa_m": 300,
+    "max_beam_m": 48,
+    "max_dwt": 150000,
+    "lightering_available": false,
+    "lightering_cost_per_tonne": 0,
+    "port_charge_per_tonne": 2.5,
+    "citations": {
+      "max_draft_m": "https://www.paradipport.gov.in/draft_details.aspx",
+      "max_loa_m": "https://www.paradipport.gov.in/draft_details.aspx",
+      "max_beam_m": "https://www.paradipport.gov.in/draft_details.aspx",
+      "max_dwt": "https://www.paradipport.gov.in/draft_details.aspx",
+      "lightering_available": "https://www.paradipport.gov.in/",
+      "lightering_cost_per_tonne": "Assumed based on no lightering",
+      "port_charge_per_tonne": "https://www.paradipport.gov.in/Port_Scale_Rate.aspx"
+    }
+  },
+  {
+    "code": "VTZ",
+    "name": "Visakhapatnam",
+    "max_draft_m": 15.0,
+    "max_loa_m": 300,
+    "max_beam_m": 45,
+    "max_dwt": 150000,
+    "lightering_available": true,
+    "lightering_cost_per_tonne": 1.5,
+    "port_charge_per_tonne": 2.8,
+    "citations": {
+      "max_draft_m": "https://visakhapatnamport.in/port-parameters/",
+      "max_loa_m": "https://visakhapatnamport.in/port-parameters/",
+      "max_beam_m": "https://visakhapatnamport.in/port-parameters/",
+      "max_dwt": "https://visakhapatnamport.in/port-parameters/",
+      "lightering_available": "https://visakhapatnamport.in/services/",
+      "lightering_cost_per_tonne": "Assumption based on standard stevedoring rates",
+      "port_charge_per_tonne": "https://visakhapatnamport.in/scale-of-rates/"
+    }
+  },
+  {
+    "code": "GGM",
+    "name": "Gangavaram",
+    "max_draft_m": 21.0,
+    "max_loa_m": 350,
+    "max_beam_m": 60,
+    "max_dwt": 200000,
+    "lightering_available": false,
+    "lightering_cost_per_tonne": 0,
+    "port_charge_per_tonne": 3.0,
+    "citations": {
+      "max_draft_m": "https://www.adaniports.com/Ports-and-Terminals/Gangavaram-Port",
+      "max_loa_m": "https://www.adaniports.com/Ports-and-Terminals/Gangavaram-Port",
+      "max_beam_m": "https://www.adaniports.com/Ports-and-Terminals/Gangavaram-Port",
+      "max_dwt": "https://www.adaniports.com/Ports-and-Terminals/Gangavaram-Port",
+      "lightering_available": "https://www.adaniports.com/Ports-and-Terminals/Gangavaram-Port",
+      "lightering_cost_per_tonne": "Assumed based on deep draft",
+      "port_charge_per_tonne": "https://www.adaniports.com/Ports-and-Terminals/Gangavaram-Port"
+    }
+  },
+  {
+    "code": "GPL",
+    "name": "Gopalpur",
+    "max_draft_m": 12.5,
+    "max_loa_m": 225,
+    "max_beam_m": 32,
+    "max_dwt": 60000,
+    "lightering_available": false,
+    "lightering_cost_per_tonne": 0,
+    "port_charge_per_tonne": 2.2,
+    "citations": {
+      "max_draft_m": "https://gopalpurports.com/infrastructure/",
+      "max_loa_m": "https://gopalpurports.com/infrastructure/",
+      "max_beam_m": "https://gopalpurports.com/infrastructure/",
+      "max_dwt": "https://gopalpurports.com/infrastructure/",
+      "lightering_available": "https://gopalpurports.com/",
+      "lightering_cost_per_tonne": "Assumed",
+      "port_charge_per_tonne": "https://gopalpurports.com/tariffs/"
+    }
+  },
+  {
+    "code": "DHM",
+    "name": "Dhamra",
+    "max_draft_m": 18.0,
+    "max_loa_m": 350,
+    "max_beam_m": 60,
+    "max_dwt": 200000,
+    "lightering_available": false,
+    "lightering_cost_per_tonne": 0,
+    "port_charge_per_tonne": 3.2,
+    "citations": {
+      "max_draft_m": "https://www.adaniports.com/Ports-and-Terminals/Dhamra-Port",
+      "max_loa_m": "https://www.adaniports.com/Ports-and-Terminals/Dhamra-Port",
+      "max_beam_m": "https://www.adaniports.com/Ports-and-Terminals/Dhamra-Port",
+      "max_dwt": "https://www.adaniports.com/Ports-and-Terminals/Dhamra-Port",
+      "lightering_available": "https://www.adaniports.com/",
+      "lightering_cost_per_tonne": "Assumed deep draft",
+      "port_charge_per_tonne": "https://www.adaniports.com/Ports-and-Terminals/Dhamra-Port"
+    }
+  },
+  {
+    "code": "HAL",
+    "name": "Haldia",
+    "max_draft_m": 9.1,
+    "max_loa_m": 230,
+    "max_beam_m": 35,
+    "max_dwt": 75000,
+    "lightering_available": true,
+    "lightering_cost_per_tonne": 2.5,
+    "port_charge_per_tonne": 2.0,
+    "citations": {
+      "max_draft_m": "https://smportkolkata.shipping.gov.in/index1.php?layout=1&lang=1&level=1&sublinkid=132&lid=104",
+      "max_loa_m": "https://smportkolkata.shipping.gov.in/",
+      "max_beam_m": "https://smportkolkata.shipping.gov.in/",
+      "max_dwt": "https://smportkolkata.shipping.gov.in/",
+      "lightering_available": "https://smportkolkata.shipping.gov.in/",
+      "lightering_cost_per_tonne": "Assumed lightering cost from Sagar",
+      "port_charge_per_tonne": "https://smportkolkata.shipping.gov.in/scale-of-rates"
+    }
+  },
+  {
+    "code": "SGR",
+    "name": "Sagar Sandheads",
+    "max_draft_m": 10.5,
+    "max_loa_m": 260,
+    "max_beam_m": 40,
+    "max_dwt": 100000,
+    "lightering_available": true,
+    "lightering_cost_per_tonne": 0,
+    "port_charge_per_tonne": 1.5,
+    "citations": {
+      "max_draft_m": "https://smportkolkata.shipping.gov.in/",
+      "max_loa_m": "https://smportkolkata.shipping.gov.in/",
+      "max_beam_m": "https://smportkolkata.shipping.gov.in/",
+      "max_dwt": "https://smportkolkata.shipping.gov.in/",
+      "lightering_available": "https://smportkolkata.shipping.gov.in/",
+      "lightering_cost_per_tonne": "Assumed anchorage point",
+      "port_charge_per_tonne": "https://smportkolkata.shipping.gov.in/"
+    }
+  }
+]

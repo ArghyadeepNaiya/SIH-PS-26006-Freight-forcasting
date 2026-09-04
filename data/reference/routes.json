@@ -1,0 +1,68 @@
+[
+  {
+    "origin": "australia",
+    "discharge_port": "IXP",
+    "distance_nm": 4800,
+    "typical_voyage_days": 18
+  },
+  {
+    "origin": "australia",
+    "discharge_port": "VTZ",
+    "distance_nm": 4900,
+    "typical_voyage_days": 18
+  },
+  {
+    "origin": "australia",
+    "discharge_port": "GGM",
+    "distance_nm": 4900,
+    "typical_voyage_days": 18
+  },
+  {
+    "origin": "australia",
+    "discharge_port": "GPL",
+    "distance_nm": 4950,
+    "typical_voyage_days": 19
+  },
+  {
+    "origin": "australia",
+    "discharge_port": "DHM",
+    "distance_nm": 4700,
+    "typical_voyage_days": 18
+  },
+  {
+    "origin": "australia",
+    "discharge_port": "HAL",
+    "distance_nm": 4600,
+    "typical_voyage_days": 17
+  },
+  {
+    "origin": "australia",
+    "discharge_port": "SGR",
+    "distance_nm": 4600,
+    "typical_voyage_days": 17
+  },
+  {
+    "origin": "usa",
+    "discharge_port": "IXP",
+    "distance_nm": 11500,
+    "typical_voyage_days": 42
+  },
+  {
+    "origin": "mozambique",
+    "discharge_port": "IXP",
+    "distance_nm": 3200,
+    "typical_voyage_days": 12
+  },
+  {
+    "origin": "russia",
+    "discharge_port": "IXP",
+    "distance_nm": 8500,
+    "typical_voyage_days": 32
+  },
+  {
+    "origin": "indonesia",
+    "discharge_port": "IXP",
+    "distance_nm": 2200,
+    "typical_voyage_days": 8
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Handysize",
+    "dwt_min": 10000,
+    "dwt_max": 39999,
+    "typical_loa_m": 180,
+    "typical_beam_m": 28,
+    "typical_laden_draft_m": 10.0
+  },
+  {
+    "name": "Supramax",
+    "dwt_min": 40000,
+    "dwt_max": 59999,
+    "typical_loa_m": 190,
+    "typical_beam_m": 32,
+    "typical_laden_draft_m": 12.0
+  },
+  {
+    "name": "Panamax",
+    "dwt_min": 60000,
+    "dwt_max": 99999,
+    "typical_loa_m": 225,
+    "typical_beam_m": 32,
+    "typical_laden_draft_m": 14.5
+  },
+  {
+    "name": "Capesize",
+    "dwt_min": 100000,
+    "dwt_max": 400000,
+    "typical_loa_m": 290,
+    "typical_beam_m": 45,
+    "typical_laden_draft_m": 18.0
+  }
+]
